@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: #333;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2,50vw);
+}
+.vkl-holder{
+    width: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vkl{
+    width: 25vmin;
+    height: 25vmin;
+    border: solid #FFF;
+}
+.bulb-holder{
+    width: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bulb{
+    width: 25vmin;
+    height: 25vmin;
+    border: solid #FFF;
+    border-radius: 50%;
+}
