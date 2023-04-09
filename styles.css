@@ -4,10 +4,15 @@
     box-sizing: border-box;
 }
 .container{
-    background-color: #333;
     height: 100vh;
     display: grid;
     grid-template-columns: repeat(2,50vw);
+}
+.b{
+    background-color: #333;
+}
+.w{
+    background-color: #fff;
 }
 .vkl-holder{
     width: auto;
@@ -19,6 +24,15 @@
 .vkl{
     width: 25vmin;
     height: 25vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.light{
+    border: solid #000 2px;
+    background-color: #000;
+}
+.dark{
     border: solid #FFF;
 }
 .bulb-holder{
@@ -33,4 +47,14 @@
     height: 25vmin;
     border: solid #FFF;
     border-radius: 50%;
+}
+.on{
+    border: #000 solid;
+    background-color: #ffff00;
+}
+.vkl_p_o{
+    color: #fff;
+}
+.no{
+    display: none;
 }
